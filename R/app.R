@@ -13,7 +13,7 @@ library(leaflet)
 
 # Import des données sous format csv (les données sous format json étant
 #  traitées au préalable sur python) 
-table_finale <- read_csv("C:/Users/HP/OneDrive/Bureau/Projet_DSIA/Data_Science/R/table_finale2.csv", show_col_type = FALSE)
+table_finale <- read_csv("https://github.com/paul-tiss/Data_Science/blob/main/R/table_finale2.csv", show_col_type = FALSE)
 
 # Conversion de la table en data frame
 tbl_fin <- as.data.frame(table_finale)
