@@ -14,6 +14,7 @@ Ce lien donne accès à nos projets de R et python. Il faut donc ouvrir le dossi
 
 ### Utilisation
 
+L'utilisateur a à sa disposition un dashboard disposant de 3 onglets: Bar Plot, Carte et Histogramme. Dans bar plot, on peut observer 3 Bar Plot qui affiche le score de traitement, le score final et le score de polution. Le score de polution et un score que nous avons calculé nous-même à partir de différentes données telles que les rejets des usines, la polutions de l'air, etc. Le score de traitment est un ratio entre le nombre de déchets reçus par certaines usines et le nombre de déchets traités. Enfin le score final est lui aussi un score calculé à partir de toutes nos données précedentes. Les calculs décris précedement sont tous décris dans notre projet python. Le deuxième onglet donne accès à une carte qui affiche le nombre
 
 
 ### Sample Tests
