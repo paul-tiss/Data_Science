@@ -2,7 +2,7 @@
 
 Notre objectif pour ce projet est de calculer un indice de dangerosité industrielle pour chaque commune en France, à ceci nous ajoutons le potentiel radon qui donne une indication sur la dangerosité de la commune. En partant de plusieurs jeux de données comprenant notamment les usines en France, le potentiel radon, les emissions de ces usines, le nombre de dechets traités... nous allons calculer un score prenant en compte tout ces éléments.   
 
-
+### User guide
 ## Getting Started
 
 
@@ -20,18 +20,22 @@ communes_light.geojson: https://drive.google.com/file/d/1eoXrfaMcUMS2Ss7lU6DjWih
 Et finalement le troisième programme dashboard.py permet de lancer le dahsboard. Il prendra automatiquement la table finale et le geojson simplifié.
 
 
-
 ## Dashboard
 
 Il faut noter que le dashboard peut prendre une certain temps à se charger en fonction de la puissance de l'ordinateur. 
 
+### Developper guide
+
+## Architecture du code 
+
+![image](https://user-images.githubusercontent.com/116153375/201546932-26a98c64-b703-4fde-bf3b-38dbfb9cae4d.png)
 
 ## Copyright
 
 Nous déclarons sur l'honneur avoir produit notre code entiérement par nous même. Les seules ressources utilisées proviennent du cours et des help pour savoir comment utiliser certaines fonctions.
 
 
-![image](https://user-images.githubusercontent.com/116153375/201546932-26a98c64-b703-4fde-bf3b-38dbfb9cae4d.png)
+
 
 
 
