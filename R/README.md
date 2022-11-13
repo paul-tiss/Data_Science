@@ -8,36 +8,13 @@ Notre objectif pour ce projet est de calculer un indice de dangerosité industri
 # User Guide
 
 ## Getting Started
-$ git clone 
-La liste des packages additionels ce trouve dans requirements.txt (ils sont au nombre de 6).
-Ouvrir le document "app.R" et appuyer sur "Run App" après avoir installé les packages mentionés ci-dessus.
+$ git clone [https://github.com/paul-tiss/Data_Science/tree/main/R ](https://github.com/paul-tiss/Data_Science.git)
+Ce lien donne accès à nos projets de R et python. Il faut donc ouvrir le dossier R puis ouvrir le document "app.R" et appuyer sur "Run App" après avoir installé les packages mentionés ci-dessus. La liste des packages additionels ce trouve dans requirements.txt (ils sont au nombre de 6).
 
 
-### Prerequisites
+### Utilisation
 
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
 
-### Installing
-
-A step by step series of examples that tell you how to get a development
-environment running
-
-Say what the step will be
-
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
 
 ### Sample Tests
 
