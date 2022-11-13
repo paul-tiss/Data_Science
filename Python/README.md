@@ -35,7 +35,14 @@ Il faut noter que le dashboard peut prendre une certain temps à se charger en f
 Nous déclarons sur l'honneur avoir produit notre code entiérement par nous même. Les seules ressources utilisées proviennent du cours et des help pour savoir comment utiliser certaines fonctions.
 
 
+## Conclusion
 
+
+Dans notre projet notre objectif était de voir quelles sont les communes les plus à risque de France sur le plan industriel et du radon. Nous avons vu que la commune 
+la plus à risque est la commune de Dugny en région parisienne. Après un petit repérage satellite sur google map on remarque que la moitié de la commune est occupée 
+par un aéroport. On peut donc comprendre pourquoi cette commune est autant à risque. Concernant le potentiel radon on remarque que le potentiel radon est le plus élevé dans 
+les régions montagneuses. En effet, c'est ici qu'on trouve le plus de radioactivité naturelle. On notera également que 15% des communes en France on au moins une usine 
+polluante.
 
 
 
