@@ -5,31 +5,19 @@ Notre objectif pour ce projet est de calculer un indice de dangerosité industri
 
 ## Getting Started
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+Tous les packages necessaire sont renseigné dans le requirement.txt
 
-### Prerequisites
+## Informations
 
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+Le programme 
 
-### Installing
+## Dashboard
 
-A step by step series of examples that tell you how to get a development
-environment running
+Il faut noter que le dashboard peut prendre une certain temps à se charger en fonction de la puissance de l'ordinateur. 
 
-Say what the step will be
 
-    Give the example
 
-And repeat
 
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
 
 ## Running the tests
 
