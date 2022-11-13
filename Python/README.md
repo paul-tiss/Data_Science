@@ -1,9 +1,7 @@
-# Project Title
+# Dangerosité industrielle et potentiel radon des communes en France
 
-One Paragraph of the project description
+Notre objectif pour ce projet est de calculer un indice de dangerosité industrielle pour chaque commune en France, à ceci nous ajoutons le potentiel radon qui donne une indication sur la dangerosité de la commune. En partant de plusieurs jeux de données comprenant notamment les usines en France, le potentiel radon, les emissions de ces usines, le nombre de dechets traités... nous allons calculer un score prenant en compte tout ces éléments.   
 
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
 
 ## Getting Started
 
