@@ -1,31 +1,17 @@
 ### Requirements
 
 install.packages("shiny")
-install.packages("dplyr")
 install.packages("ggplot2")
 install.packages("readr")
 install.packages("tidyverse")
 install.packages("shinydashboard")
 install.packages("leaflet")
-install.packages("sf")
-install.packages("scales")
-install.packages("ggmap")
-install.packages("geojsonio")
-install.packages("broom")
-install.packages("mapproj")
-install.packages("maps")
+
 
 library(shiny)
-library(dplyr)
 library(ggplot2)
 library(readr)
 library(tidyverse)
 library(shinydashboard)
 library(leaflet)
-library(sf)
-library(scales)
-library(ggmap)
-library(geojsonio)
-library(broom)
-library(mapproj)
-library(maps)
+
