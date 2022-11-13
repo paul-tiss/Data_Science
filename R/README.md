@@ -20,6 +20,7 @@ L'utilisateur a à sa disposition un dashboard disposant de 3 onglets: Bar Plot,
 
 ### Architecture du code:
 
+![image](https://user-images.githubusercontent.com/116153375/201546953-18cf8605-3b60-48b1-9d0e-5e478c98cc27.png)
 
 
 ### Copyright:
