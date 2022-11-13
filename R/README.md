@@ -8,7 +8,7 @@ Notre objectif pour ce projet est de calculer un indice de dangerosité industri
 # User Guide
 
 ## Getting Started
-$ git clone [https://github.com/paul-tiss/Data_Science/tree/main/R ](https://github.com/paul-tiss/Data_Science.git)
+$ git clone https://github.com/paul-tiss/Data_Science.git 
 Ce lien donne accès à nos projets de R et python. Il faut donc ouvrir le dossier R puis ouvrir le document "app.R" et appuyer sur "Run App" après avoir installé les packages mentionés ci-dessus. La liste des packages additionels ce trouve dans requirements.txt (ils sont au nombre de 6).
 
 
