@@ -24,4 +24,4 @@ L'utilisateur a à sa disposition un dashboard disposant de 3 onglets: Bar Plot,
 
 ### Copyright
 
-Nous déclarons sur l'honneur que le code fourni a été produit par nous-mêmes.
+Nous déclarons sur l'honneur que le code fourni a été produit par nous-mêmes. Nous avons cependant recouru au cours fournis ainsi qu'a la documentation obtenue à partir de la fonction help()
