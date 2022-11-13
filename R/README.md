@@ -1,7 +1,9 @@
-# Dangerosité industrielle et potentiel radon des communes en France
+# Project Title
 
-Notre objectif pour ce projet est de calculer un indice de dangerosité industrielle pour chaque commune en France, à ceci nous ajoutons le potentiel radon qui donne une indication sur la dangerosité de la commune. En partant de plusieurs jeux de données comprenant notamment les usines en France, le potentiel radon, les emissions de ces usines, le nombre de dechets traités... nous allons calculer un score prenant en compte tout ces éléments.   
+One Paragraph of the project description
 
+Initially appeared on
+[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
 
 ## Getting Started
 
@@ -49,11 +51,7 @@ Checks if the best practices and the right coding style has been used.
 
 ## Deployment
 
-Git ne veut pas de fichiers >50Mo or les fichiers geojson sont plus lourd que ça. Il faut donc les telecharger aux adresses suivantes. A noter que commune_light est une version simplifiée de datagouv-communes. La présence de ce dernier fichier est uniquement utile pour le test du programme de simplification. Mais le dashboard prendra automatiquement communes_light. 
-
-datagouv-communes.geojson: https://drive.google.com/file/d/1bf4ITZwitC0YTaA7NaB9VfTrExp8H3al/view?usp=share_link
-communes_light.geojson: https://drive.google.com/file/d/1eoXrfaMcUMS2Ss7lU6DjWihcSxudHil7/view?usp=share_link
-
+Add additional notes to deploy this on a live system
 
 ## Built With
 
