@@ -5,7 +5,8 @@ Notre objectif pour ce projet est de calculer un indice de dangerosité industri
 
 ## Getting Started
 
-Tous les packages necessaire sont renseigné dans le requirement.txt
+
+$ git clone https://github.com/paul-tiss/Data_Science.git Ce lien donne accès à nos projets de R et python. Il faut donc ouvrir le dossier Data_Science puis ouvrir le dossier Python pour accéder aux fichiers. Une fois le fichier télécharger il faut se placer dans ce dossier avec le terminal pour lancer les programmes. Tous les packages necessaire sont renseigné dans le requirement.txt 
 
 ## Informations
 
