@@ -13,7 +13,7 @@ library(leaflet)
 
 # Import des données sous format csv (les données sous format json étant
 #  traitées au préalable sur python) 
-table_finale <- read_csv("https://github.com/paul-tiss/Data_Science/blob/main/R/table_finale2.csv", show_col_type = FALSE)
+table_finale <- read_csv("table_finale2.csv", show_col_type = FALSE)
 
 # Conversion de la table en data frame
 tbl_fin <- as.data.frame(table_finale)
@@ -35,9 +35,9 @@ ui <- dashboardPage(
   # Définition du menu de navigation sur le coté 
   dashboardSidebar(
     sidebarMenu(
-      menuItem("Bar Plot", tabName = "scorefinal", icon = icon("dashboard")),
-      menuItem("Carte", tabName = "carte", icon = icon("th")),
-      menuItem("Histogramme", tabName = "Histogramme", icon = icon("th"))
+      menuItem("Bar Plot", tabName = "scorefinal"),
+      menuItem("Carte", tabName = "carte"),
+      menuItem("Histogramme", tabName = "Histogramme")
     )
   ),
   
