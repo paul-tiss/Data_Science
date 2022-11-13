@@ -31,4 +31,7 @@ Il faut noter que le dashboard peut prendre une certain temps à se charger en f
 Nous déclarons sur l'honneur avoir produit notre code entiérement par nous même. Les seules ressources utilisées proviennent du cours et des help pour savoir comment utiliser certaines fonctions.
 
 
+![image](https://user-images.githubusercontent.com/116153375/201546932-26a98c64-b703-4fde-bf3b-38dbfb9cae4d.png)
+
+
 
