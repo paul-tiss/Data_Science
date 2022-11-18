@@ -3,8 +3,8 @@ import numpy as np
 
 
 #On ouvre les csv
-df_insee = pd.read_csv(r"C:\Users\cleth\Desktop\correspondance-code-insee-code-postal.csv",sep=';')
-df_etab = pd.read_csv(r"C:\Users\cleth\Desktop\2020\2020\etablissements.csv",sep=';')
+df_insee = pd.read_csv("correspondance-code-insee-code-postal.csv",sep=';')
+df_etab = pd.read_csv(r"etablissements.csv",sep=';')
 
 
 #On retire les colonnes inutiles
@@ -149,7 +149,7 @@ df_finale = df_finale.rename(columns={"Code INSEE":"code_insee", "Superficie":"s
 #On passe maintenant au radon
 #--------------------------------------------------------------------------------------------
 
-df_radon = pd.read_csv(r"C:\Users\cleth\Desktop\radon.csv",sep=';')
+df_radon = pd.read_csv(r"radon.csv",sep=';')
 
 df_radon = df_radon.drop(columns = ['nom_dept','reg'])
 df_radon = df_radon.rename(columns={"insee_com":"code_insee","nom_comm":"commune"})
@@ -186,7 +186,7 @@ df_finale['classe_potentiel'] = df_finale['classe_potentiel'].fillna(1)
 #On passe maintenant aux émissions
 #--------------------------------------------------------------------------------------------
 
-df_emission= pd.read_csv(r"C:\Users\cleth\Desktop\2020\2020\emissions.csv",sep=';')
+df_emission= pd.read_csv(r"emissions.csv",sep=';')
 
 
 #On vérifie si toutes les données sont sur la même année et si les unités sont identiques afin de pouvoir les supprimer si jamais
@@ -249,7 +249,7 @@ df_new['score'] = df_new['score'].fillna(1)
 #On passe maintenant à la production de dechets dangereux 
 #--------------------------------------------------------------------------------------------
 
-df_dechet= pd.read_csv(r"C:\Users\cleth\Desktop\2020\2020\Prod_dechets_dangereux.csv",sep=';')
+df_dechet= pd.read_csv(r"Prod_dechets_dangereux.csv",sep=';')
 
 
 #On cherche le nombre d'occurence de chaque indentifiant pour voir les usines qui produisent le plus de dechets
@@ -272,7 +272,7 @@ df_new = df_new.rename(columns={'score':'score_pollution','nb':'nb_usines_pollua
 #--------------------------------------------------------------------------------------------
 
 
-df_traitement= pd.read_csv(r"C:\Users\cleth\Desktop\2020\2020\Trait_dechets_dangereux.csv",sep=';')
+df_traitement= pd.read_csv(r"Trait_dechets_dangereux.csv",sep=';')
 
 #On vérifie que les deux colonnes quantité ne comportent pas de NaN
 
@@ -435,7 +435,7 @@ df_finale['long'] = df_finale['long'].apply(lambda v: df_finale['geo_point_2d'][
 df_finale = df_finale.drop(columns = ['geo_point_2d'])
 
 df_finale.to_csv('table_finale.csv',encoding='utf-8', index=False,sep=';')
-df_finale.to_csv('table_finale2.csv',encoding='utf-8')
+
 
   
 
